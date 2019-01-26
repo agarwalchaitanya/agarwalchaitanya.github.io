@@ -79,7 +79,10 @@ body {
     font-size: 1.5rem;
     line-height: 1;
   }
-  
+  @font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Roboto:400,100,400italic,700italic,700') format('woff')
+  }
   @media (min-width: 650px) {
     .mega {
       font-size: 6rem;
